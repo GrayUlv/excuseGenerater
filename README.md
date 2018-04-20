@@ -1,0 +1,2 @@
+# excuseGenerater
+generates excuses
