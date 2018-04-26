@@ -22,7 +22,10 @@ window.onload = function(){
         const excuse = array1[random1]+" "+array2[random2]+" "+array3[random3];
         return excuse;
     }
-    
-    console.log(generateExcuse(pronoun,nouns,verbs));
-        
+    function myButton(){
+    var str = generateExcuse(pronoun,nouns,verbs);
+    document.querySelector(".js").innerHTML=str;
+    }
+    let clickbutton = document.querySelector(".btn-danger");
+    clickbutton.onclick= myButton;
 };
