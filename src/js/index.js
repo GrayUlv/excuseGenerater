@@ -22,5 +22,14 @@ window.onload = function(){
         const excuse = array1[random1]+" "+array2[random2]+" "+array3[random3];
         return excuse;
     }
+<<<<<<< HEAD
     
+=======
+    function myButton(){
+    var str = generateExcuse(pronoun,nouns,verbs);
+    document.querySelector(".js").innerHTML=str;
+    }
+    let clickbutton = document.querySelector(".btn-danger");
+    clickbutton.onclick= myButton;
+>>>>>>> ab6a186e390823c69b79f78edd449d748aa61968
 };
