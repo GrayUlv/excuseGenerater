@@ -23,6 +23,4 @@ window.onload = function(){
         return excuse;
     }
     
-    console.log(generateExcuse(pronoun,nouns,verbs));
-        
 };
